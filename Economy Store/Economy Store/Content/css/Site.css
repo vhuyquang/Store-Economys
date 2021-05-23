@@ -9,7 +9,7 @@
     float: right;
     color: #808080;
     text-align: center;
-    padding: 16px;
+    padding: 17px;
     text-decoration: none;
     font-size: 12px;
     font-family: Open Sans, sans-serif;
@@ -40,6 +40,23 @@
     color: black;
 }
 
-.midnav .search-bar{
-    float:inherit;
+.midnav-container .row .col-md-7 .search-bar {
+    margin: 70px 0px 0px 0px; 
+    padding: 5px 15px;
+    width: 80%;
 }
+
+
+
+.midnav-container .row .col-md-2 a  {
+   
+    line-height: 6;
+    font-size:xx-large;
+}
+.midnav-container .row .col-md-2 .btn-cart{
+    margin:-190px 0px 0px 85px;
+}
+
+
+    
+ 
