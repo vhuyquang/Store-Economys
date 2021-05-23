@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Economy Store", "Economy Store\Economy Store.csproj", "{A533B4AF-E73C-4BC6-84A0-127BE2A965E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.Web", "Economy Store\ES.Web.csproj", "{A533B4AF-E73C-4BC6-84A0-127BE2A965E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
