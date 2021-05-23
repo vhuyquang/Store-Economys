@@ -1,0 +1,45 @@
+﻿
+
+.topnav {
+    background-color: #7ccffc;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #808080;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+}
+
+.topnav .hotline {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Open Sans, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #40bcff;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #7ccffc;
+    color: #292929;
+}
+
+.topnav .active:hover {
+    background-color: #40bcff;
+    color: black;
+}
+
+.midnav .search-bar{
+    float:inherit;
+}
