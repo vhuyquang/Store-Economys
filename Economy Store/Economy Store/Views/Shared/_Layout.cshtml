@@ -4,29 +4,47 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thanh Lam Store</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="~/Content/css/Site.css" rel="stylesheet" />
 </head>
 <body>
     <header>
         <div class="topnav">
-            <span class="hotline"><i class="fa fa-phone"></i> Hotline:0347 305 124 </span>
-            <a href="#Đăng ký"><i class="fa fa-key"></i> Đăng ký</a>
-            <a href="#Đăng nhập"><i class="fa fa-sign-in"></i> Đăng nhập</a>
-            <a href="#Giỏ hàng"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a>
-            <a class="active" href="#Kiểm tra đơn hàng"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a>
+            <div class="container">
+                <span class="hotline"><i class="fa fa-phone"></i> Hotline:0347 305 124 </span>
+                <a href="#Đăng ký"><i class="fa fa-key"></i> Đăng ký</a>
+                <a href="#Đăng nhập"><i class="fa fa-sign-in"></i> Đăng nhập</a>
+                <a href="#Giỏ hàng"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a>
+                <a class="active" href="#Kiểm tra đơn hàng"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a>
+            </div>
+        </div>
+        <div class="midnav container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="~/Content/Images/Logo.png" />
+                </div>
+                <div class="col-md-7">
+                    <input class="search-bar" type="text" placeholder="Search..">
+                </div>
+                <div class="col-md-2">
+                    <img src="~/Content/Images/Logo.png" />
+                    <a></a>
+                </div>
+            </div>
+           
         </div>
     </header>
-    <div class="container body-content">
+    <div>
         @RenderBody()
-        <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
 </body>
 </html>
