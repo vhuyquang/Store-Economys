@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Economy_Store
+namespace ES.Web
 {
     public class BundleConfig
     {
