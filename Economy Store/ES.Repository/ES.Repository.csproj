@@ -36,6 +36,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DependencyResolution\RepositoryDependencyRegistry.cs" />
     <Compile Include="Implement\ProductRepository.cs" />
     <Compile Include="Interface\IProductRepository.cs" />
   </ItemGroup>
@@ -44,6 +45,16 @@
       <Project>{88371577-0822-4867-A3B5-528202845030}</Project>
       <Name>ES.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="StructureMap, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StructureMap.4.7.1\lib\net45\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

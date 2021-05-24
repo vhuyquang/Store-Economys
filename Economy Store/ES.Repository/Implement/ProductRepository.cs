@@ -3,11 +3,12 @@ using ES.Core.ShareModel;
 
 namespace ES.Repository.Interface
 {
-    public class ProductService : IProductRepository
+    public class ProductRepository : IProductRepository
     {
         public PagedResult<ProductModel> GetAll(SearchWithPaging param)
         {
-            throw new System.NotImplementedException();
+            PagedResult<ProductModel> product = new PagedResult<ProductModel>();
+            return product;
         }
     }
 }
